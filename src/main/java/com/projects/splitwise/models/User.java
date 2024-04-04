@@ -3,8 +3,7 @@ package com.projects.splitwise.models;
 import jakarta.persistence.Entity;
 import lombok.Data;
 
-@Data
-@Entity
+@Data @Entity
 public class User extends BaseModel {
 
     private String userName;

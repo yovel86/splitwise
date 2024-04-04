@@ -8,8 +8,7 @@ import lombok.Data;
 
 import java.util.Date;
 
-@Data
-@MappedSuperclass
+@Data @MappedSuperclass
 public abstract class BaseModel {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
