@@ -10,4 +10,6 @@ public interface SettleUpService {
 
     List<Transaction> settleGroup(int groupId) throws InvalidRequestException;
 
+    List<Transaction> settleUser(int userId) throws InvalidRequestException;
+
 }
